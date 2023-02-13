@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='css.html/balbeon.html.png'">Turn on the light</button>
+
+<img id="myImage" src="css.html/bulb.png" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='css.html/bulb.png'">Turn off the light</button>
+
+
+<!-- cange content -->
+<h2>what can do javascript</h2>
+<p id="demo">javascript can change html content</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML="Hello JavaScript"'>click me</button>
+
+<!-- date -->
+<p id="first"></p>
+<button type="button"
+onclick='document.getElementById("first").innerHTML=Date()'>
+click Me To Display Date And Time</button>
+
+<!-- font size  -->
+<p id='second'>this is my first javascript</p>
+<button type="button"
+onclick="document.getElementById('second').style.fontSize='35px'">
+click me</button>
+
+<!-- hide to a text -->
+<p id="none">javascript can hide to a text</p>
+<button type="button"
+onclick="document.getElementById('none').style.display='none'">
+click <button type="submit"></button></button>
+
+<!-- display to hide element -->
+<p>JavaScript can show hidden HTML elements.</p>
+<p id="hide" style="display:none">hello world</p>
+<button type="button"
+onclick="document.getElementById('hide').style.display='block'">
+click me</button>
+
+<!--  -->
+</body>
+</html>
